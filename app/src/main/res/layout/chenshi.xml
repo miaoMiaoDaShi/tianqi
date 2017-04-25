@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v7.widget.SearchView
+    android:id="@+id/searview"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+</android.support.v7.widget.SearchView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="正在定位城市"
+    />
+    <ListView
+        android:id="@+id/li_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+
+</LinearLayout>
